@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parallax- Paises</title>
+        <style>
+
+            body, html{
+                margin: 0;
+                font: 16px "lato", sans-serif;
+                color: #777;
+                height: 100%;
+            }
+            .conteudo{
+                color:#777;
+                background-color: white;
+                text-align: justify;
+                padding:50px 80px;
+            }
+            h3{
+                text-transform: uppercase; /*deixa o texto em letra maiuscula*/
+                color:#111;
+                text-align: center;
+                letter-spacing: 5px;
+            }
+            p{
+                margin-bottom: 10px;
+                margin-left: 10px;
+            }
+            /*EFEITO PARALLAX*/
+            .italia, .franca, .londres, .suica{
+                height: 100%;
+                opacity: 0.7; /*aumenta a opaciadade da imagem*/
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed; /*Fixa a imagem*/
+                position: relative;
+            }
+            .franca{
+                background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-02.jpg);
+            }
+            .italia{
+                background-image: url(imagens/Italy_Rome_Houses_Colosseum_Mountains_598569_1280x853.jpg);
+            }
+            .londres{
+                background-image: url(imagens/Rivers_Bridges_England_Houses_London_Big_Ben_570094_1280x843.jpg);
+            }
+            .suica{
+                background-image: url(imagens/Switzerland_Mountains_Lake_Schwarzsee_Alps_614900_1280x853.jpg);
+            }
+            .titulo{
+                position: absolute;
+                left:0;
+                width: 100%;
+                top:45%;
+                text-align: center;
+            }
+            .titulo span.titulo2{
+                background-color: #111;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 5px;
+                color:#fff ;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="franca">
+            <div class="titulo">
+                    <span class="titulo2">França</span>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <h3>Paris</h3>
+            <P>
+                Paris, a cidade das luzes, dos amantes e da cultura, é um dos destinos mais icônicos e apaixonantes do mundo. Localizada nas margens do rio Sena, esta metrópole cosmopolita encanta os visitantes com sua arquitetura deslumbrante, suas delícias culinárias e seu rico patrimônio histórico.
+                Ao passear pelas ruas parisienses, é impossível não se maravilhar com a majestosa Torre Eiffel, um símbolo icônico da cidade que se ergue elegantemente sobre o horizonte. Suas luzes cintilantes à noite criam uma atmosfera mágica e romântica, tornando-a o cenário perfeito para um jantar a dois.
+            </P>
+            <p>
+                Além da Torre Eiffel, Paris abriga uma infinidade de tesouros arquitetônicos, como a imponente Catedral de Notre-Dame, com sua impressionante fachada gótica, e o magnífico Palácio de Versalhes, uma obra-prima do estilo barroco.
+
+                Mas Paris não é apenas sobre monumentos grandiosos; é também uma cidade repleta de charmosas praças, encantadores cafés e vibrantes bairros. Passear pelas ruas de Montmartre é como entrar em um quadro de arte impressionista, com suas ruas de paralelepípedos, artistas de rua e vistas deslumbrantes da cidade.
+            </p>
+        </div>
+
+        <div class="italia">
+            <div class="titulo">
+                <span class="titulo2">Italia</span>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <h3>Roma</h3>
+            <P>
+                Roma, a Cidade Eterna, é um tesouro histórico e cultural que exerce fascínio sobre o mundo há milênios. Fundada há mais de 2.500 anos, a capital da Itália é um testemunho vivo da grandeza do Império Romano e continua a ser uma fonte inesgotável de inspiração e admiração.
+
+                O coração de Roma é um verdadeiro museu ao ar livre, onde cada rua, praça e edifício conta uma história rica e fascinante. O Coliseu, um dos monumentos mais emblemáticos do mundo, é um símbolo poderoso do poder e da engenhosidade dos antigos romanos. Este anfiteatro icônico foi palco de espetáculos grandiosos e combates de gladiadores, e sua imponência continua a impressionar os visitantes até os dias de hoje.
+            </P>
+            <p>
+                Mas Roma não é apenas sobre o seu passado glorioso; é também uma cidade vibrante e cosmopolita, onde o antigo e o moderno se misturam de forma harmoniosa. Ruas de paralelepípedos pitorescas dão lugar a elegantes avenidas, e praças históricas convivem com boutiques de moda e restaurantes sofisticados.
+
+                Em resumo, Roma é uma cidade onde o passado e o presente se encontram em uma fusão fascinante de história, cultura e beleza. Uma visita a esta cidade eterna é uma jornada inesquecível através dos séculos, que deixará uma impressão duradoura em todos aqueles que têm o privilégio de explorá-la.
+            </p>
+        </div>
+
+        <div class="londres">
+            <div class="titulo">
+                <span class="titulo2">Inglaterra</span>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <h3>Londres</h3>
+            <p>
+                Londres, a capital do Reino Unido, é uma metrópole vibrante e diversificada, que combina história, cultura e modernidade de uma maneira única. Com uma rica herança que remonta a milênios, esta cidade global cativa os visitantes com sua mistura eclética de atrações e sua atmosfera dinâmica.
+
+                Um dos marcos mais emblemáticos de Londres é o imponente Palácio de Buckingham, lar da família real britânica. Os turistas se reúnem diariamente para testemunhar a tradicional Troca da Guarda, uma cerimônia que é uma reminiscência da longa história monárquica do país.
+            </p>
+            <p>
+                Outro ícone reconhecível em toda parte é o Big Ben, o famoso relógio no topo do Palácio de Westminster. Esta estrutura icônica é um símbolo duradouro da cidade e proporciona uma vista espetacular ao longo do rio Tâmisa.
+                A cidade também é um paraíso para os amantes da moda, com ruas como Oxford Street e Bond Street repletas de lojas de grife e butiques exclusivas. Os mercados de rua, como Camden Market e Borough Market, oferecem uma variedade infinita de produtos artesanais, alimentos deliciosos e uma atmosfera animada.
+            </p>
+        </div>
+        <div class="suica">
+            <div class="titulo">
+                <span class="titulo2">Suiça</span>
+            </div>
+        </div>
+      
+        <div class="conteudo">
+            <h3>Alpes Suiços</h3>
+            <p>
+            A Suíça, com sua beleza natural deslumbrante e seu charme alpino, é um destino de tirar o fôlego para os amantes da natureza e entusiastas de esportes ao ar livre. Situada no coração da Europa, a Suíça é conhecida por seus majestosos Alpes suíços, que oferecem paisagens de tirar o fôlego em todas as estações do ano.
+
+            Durante o inverno, os Alpes suíços se transformam em um paraíso para os entusiastas de esqui e snowboard, com algumas das melhores estâncias de esqui do mundo, como Zermatt, Verbier e St. Moritz. As vastas áreas de esqui, pistas bem preparadas e paisagens de montanha deslumbrantes proporcionam uma experiência incomparável para os praticantes de esportes de inverno.
+            </p>
+            <p>
+                No verão, os Alpes suíços se tornam um playground para caminhadas, mountain bike e alpinismo. Trilhas bem marcadas levam os visitantes a picos deslumbrantes, lagos cristalinos e vales verdejantes, proporcionando vistas espetaculares e oportunidades para se reconectar com a natureza.
+
+                Além das atividades ao ar livre, a Suíça também é conhecida por suas charmosas cidades e vilarejos alpinos, onde a tradição e a modernidade se encontram. Lugares como Interlaken, Lucerna e Zermatt cativam os visitantes com sua arquitetura pitoresca, gastronomia deliciosa e atmosfera acolhedora.
+            </p>
+        </div>
+    </body>
+</html>
